@@ -1,0 +1,29 @@
+#login-form input {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  margin-top: 20px;
+}
+
+#login-form input::placeholder {
+  color: white;
+  font-size: 20px;
+}
+
+#login-form input[type="text"] {
+  width: 250px;
+  margin-right: 10px;
+}
+
+#login-form input[type="submit"] {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#greeting {
+  color: white;
+  margin: 20px 0;
+  font-size: 20px;
+}

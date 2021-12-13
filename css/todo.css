@@ -1,0 +1,28 @@
+#todo-form input {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 1px solid white;
+  width: 310px;
+}
+
+#todo-form input::placeholder {
+  color: white;
+}
+
+#todo-form input:focus {
+  color: white;
+}
+
+#todo-list li {
+  color: white;
+  margin-top: 10px;
+}
+
+#todo-list button {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 10px;
+}

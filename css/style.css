@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@400;600&family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&display=swap");
+
+@import "reset.css";
+
+@import "greetings.css";
+@import "clock.css";
+@import "todo.css";
+@import "quotes.css";
+@import "weather.css";
+@import "background-image.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+/* img {
+  display: flex;
+  position: absolute;
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+} */
